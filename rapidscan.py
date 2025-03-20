@@ -159,7 +159,6 @@ def clear():
         sys.stdout.write("\033[F")
         sys.stdout.write("\033[K") #clears until EOL
 
-# RapidScan Logo
 def logo():
     print(bcolors.WARNING)
     logo_ascii = """
@@ -169,7 +168,7 @@ def logo():
                                      /
                      """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
 
-                     Check out our new software, """+bcolors.BG_LOW_TXT+"""NetBot"""+bcolors.ENDC+""" for simulating DDoS attacks - https://github.com/skavngr/netbot
+                     
     """
     print(logo_ascii)
     print(bcolors.ENDC)
