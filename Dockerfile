@@ -1,8 +1,5 @@
-# golismero install has been skipped. 
-# See issue https://github.com/golismero/golismero/issues/59
 # RUN apt-get install -y golismero
 # This fails, so we skip completely for now. See issue https://github.com/kislyuk/argcomplete/issues/348
-# RUN cd /opt && git clone https://github.com/golismero/golismero.git && cd golismero && pip install -r requirements.txt && ln -s /opt./golismero/golismero.py /usr/bin/golismero
 
 FROM kalilinux/kali-rolling
 ENV DEBIAN_FRONTEND noninteractive
